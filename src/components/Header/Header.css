@@ -1,0 +1,20 @@
+#cabecera {
+    background-color: #121f16 !important; 
+}
+
+.boton-logout i{
+    margin-right: 100px;
+}
+/* El boton es mas grande de lo que deberia hacia la derecha */
+.boton-logout {
+    color: #fff;
+    font-size: 25px;
+    background: none;
+    border: none;
+    float: right;
+    display: inline;
+    padding: none;
+ }
+ .boton-logout :hover {
+     color:gray;
+ }
