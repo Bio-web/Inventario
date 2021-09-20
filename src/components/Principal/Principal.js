@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Principal() {
     return (
-        
         <div className="text-center">
         <Carousel>
             <Carousel.Item>
@@ -13,33 +12,26 @@ function Principal() {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3> Tecnología médica</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src="./public/img/1.png/800x400?text=Second slide&bg=282c34"
+                className="d-block-center"
+                src="https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Imagenes/Imagenes_subsitios_especiales/proyecto_salvar_vidas/ventilador-herons-noticias-unisabana.jpg"
                 alt="Second slide"
                 />
-
-                <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                
+                <Carousel.Caption id="img2">
+                <h2>Sistemas actualizados</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src="holder.js/800x400?text=Third slide&bg=20232a"
+                className="d-block-center"
+                src="https://www.consalud.es/saludigital/uploads/s1/39/34/95/hospitales-digitales-el-nuevo-reto-del-futuro.jpeg"
                 alt="Third slide"
                 />
-
-                <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
             </div>

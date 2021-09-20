@@ -1,7 +1,18 @@
 .carousel img{
     border-radius: 15px  !important;
-    max-width: 90% !important;
+    max-width: 87% !important;
 }
 .carousel h3 {
-    font-size: 50px;
+    font-size: 30px;
+    font-style: normal;
+    color:#cacfd3 !important
+}
+.carousel h2 {
+    font-size: 30px;
+    font-style: normal;
+    color:#031625 !important
+}
+.carousel.caption.img2{
+    position: absolute;
+    top: -100px;
 }

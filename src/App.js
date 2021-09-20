@@ -1,21 +1,26 @@
 import './App.css';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header'
 import Login from './components/Login/Login';
+import Principal from './components/Principal/Principal'; 
 import Existencias from './components/Existencias/Existencias';
-import Principal from './components/Principal/Principal';
 import Proveedores from './components/Proveedores/Proveedores';
-
-
+import { UserContext } from "./contexts/UserContext";
+import { useState } from "react";
 
 function App() {
+  const userStorage = JSON.parse(localStorage.getItem("user"));
+  const [user, setUser] = useState(
+    userStorage ? userStorage : { isLoggedIn: false }
+  );
   return (
     <Router>
-      <Header></Header>
+     <UserContext.Provider value={{ user, setUser }}>
+      <Switch>
+      <Login></Login>
       <Principal></Principal>
-      <Footer></Footer>
+      </Switch>
+    </UserContext.Provider>
     </Router>
   );
 }
