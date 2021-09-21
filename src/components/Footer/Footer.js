@@ -4,14 +4,25 @@ import Card from 'react-bootstrap/Card';
 
 function Footer() {
     return (
-        <Card.Footer>
-            <div id="elementos">
+
+        <Footer>
+             
+            <div>
             <i className="fas fa-copyright"></i>
+            Copyright 2021 
+            <br>
+            E-mail: bio-web@hotmail.com
+            Teléfonos: 
+            </br>
+            </div>
+            <div id="elementos">
             <i className="fab fa-instagram"></i>
             <i className="fab fa-facebook"></i>
             <i className="fab fa-twitter"></i>
             </div>
-        </Card.Footer>
+
+            
+        </Footer>
     )
 }
 
