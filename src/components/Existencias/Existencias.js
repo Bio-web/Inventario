@@ -1,5 +1,6 @@
 import "./Existencias.css";
 import { useState, useEffect } from 'react'
+import Table from 'react-bootstrap/Table'
 
 function Existencias() {
 
@@ -16,8 +17,32 @@ function Existencias() {
     return(
         <section id = 'existencias'>
             <h1>
-            <i class="fas fa-warehouse"></i> Existencias</h1>
-            <div className = 'grid'></div>
+                <i className="fas fa-warehouse"></i> Existencias
+            </h1>
+            <div className = 'grid'>
+            <Table striped bordered hover variant="light">
+                <thead>
+                    <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Marca</th>
+                    <th>Referencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {existencias.map(existencia => { 
+                        return (
+                                        <tr>
+                                        <td>{existencia.id}</td>
+                                        <td>{existencia.nombre}</td>
+                                        <td>{existencia.marca}</td>
+                                        <td>{existencia.referencia}</td>
+                                        </tr>
+                        );
+                    })}
+                </tbody>
+                </Table>
+            </div>
         </section>
         
     )
