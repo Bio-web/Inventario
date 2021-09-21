@@ -36,6 +36,7 @@ function App() {
                 <Existencias></Existencias>                
               </Layout>
               <Layout path = "/existencias/:id">
+                <Header></Header>
                 <Existencia></Existencia>
               </Layout>
               <Layout exact path = "/proveedores">
