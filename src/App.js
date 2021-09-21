@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Login from './components/Login/Login';
+import Header from './components/Header/Header';
 import Principal from './components/Principal/Principal'; 
 import Existencias from './components/Existencias/Existencias';
 import Proveedores from './components/Proveedores/Proveedores';
-import Footer from './components/Footer/Footer'
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
 import Layout from './Layout';
@@ -27,12 +27,15 @@ function App() {
             <>
             <Switch>
               <Layout exact path = {["/inicio", "", "/"]}>
+                <Header></Header>
                 <Principal></Principal>
               </Layout>
               <Layout exact path = "/existencias">
-                <Existencias></Existencias>
+                <Header></Header>
+                <Existencias></Existencias>                
               </Layout>
               <Layout exact path = "/proveedores">
+                <Header></Header>
                 <Proveedores></Proveedores>
               </Layout>
               </Switch>

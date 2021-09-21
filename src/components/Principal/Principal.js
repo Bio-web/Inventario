@@ -12,13 +12,13 @@ function Principal() {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3> Tecnología médica</h3>
+                <h1> Tecnología médica</h1>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block-center"
-                src="https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Imagenes/Imagenes_subsitios_especiales/proyecto_salvar_vidas/ventilador-herons-noticias-unisabana.jpg"
+                src="https://cloudfront-us-east-1.images.arcpublishing.com/semana/L7XMEGDGF5GNXHI7MTRVTHEVSE.jpg"
                 alt="Second slide"
                 />
                 
@@ -31,7 +31,11 @@ function Principal() {
                 className="d-block-center"
                 src="https://www.consalud.es/saludigital/uploads/s1/39/34/95/hospitales-digitales-el-nuevo-reto-del-futuro.jpeg"
                 alt="Third slide"
-                />
+                />  
+                <Carousel.Caption>
+                <h3> Los mejores proveedores</h3>
+                </Carousel.Caption>
+                
             </Carousel.Item>
             </Carousel>
             </div>
