@@ -5,16 +5,22 @@ import Card from 'react-bootstrap/Card';
 function Footer() {
     return (
 
-        <Footer>
-             
-            <div>
-            <i className="fas fa-copyright"></i>
-            Copyright 2021 
-            <br>
-            E-mail: bio-web@hotmail.com
-            Teléfonos: 
-            </br>
-            </div>
+        <Card.Footer>           
+            <div id= "texto">
+                <p>
+                <i className="fas fa-copyright"></i>
+                    Copyright 2021
+                </p>
+                <p1>
+                <i class="fas fa-envelope"></i>
+                    Email : bio-web@hotmail.com
+                </p1>        
+
+                <p2>
+                <i class="fas fa-phone-square-alt"></i>
+                Teléfono: 304 89 98
+                </p2>
+              </div>           
             <div id="elementos">
             <i className="fab fa-instagram"></i>
             <i className="fab fa-facebook"></i>
@@ -22,7 +28,7 @@ function Footer() {
             </div>
 
             
-        </Footer>
+        </Card.Footer>
     )
 }
 

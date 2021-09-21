@@ -13,7 +13,6 @@ function Existencias() {
 
     }, [])
 
-
     return(
         <section id = 'existencias'>
             <h1>
