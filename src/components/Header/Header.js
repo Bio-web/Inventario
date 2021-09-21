@@ -33,7 +33,8 @@ function Header() {
                         <Link to="/login" >
                             <i className="none"></i>
                         </Link>
-                        ) : (
+                        ) : 
+                        (
                         <button className="boton-logout" onClick={() => cerrarSesion()}>
                             <i className="fas fa-sign-out-alt"></i>
                         </button>
