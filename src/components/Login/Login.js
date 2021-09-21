@@ -3,6 +3,8 @@ import { UserContext } from "../../contexts/UserContext";
 import { useHistory } from "react-router-dom";
 import "./Login.css";
 
+
+
 async function login(credenciales) {
     return {
       name: "bio-web",
@@ -34,6 +36,7 @@ function Login() {
     };
 
     return (
+        <body className="principal">
         <div className="d-flex justify-content-center">
         <form className="text-white" onSubmit={handleSubmit}>
             <div className="email">
@@ -65,6 +68,9 @@ function Login() {
             </button>
         </form>
         </div>
+        </body>
+       
+
     );
 }
 
