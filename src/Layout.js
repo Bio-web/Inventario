@@ -13,9 +13,7 @@ function Layout(props) {
                 <Route {...props}/>
             </main>
             <Footer></Footer>
-
         </>
-
     )
 }
 

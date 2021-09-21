@@ -29,17 +29,15 @@ function Header() {
                         </Nav>
                     </Container>
                     <ul id="botones-cabecera">
-                        <li>
                         {!user.isLoggedIn ? (
-                        <Link to="/login" className="boton-login">
-                            <i className="fas fa-user"></i>
+                        <Link to="/login" >
+                            <i className="none"></i>
                         </Link>
                         ) : (
                         <button className="boton-logout" onClick={() => cerrarSesion()}>
                             <i className="fas fa-sign-out-alt"></i>
                         </button>
                         )}
-                        </li>
                     </ul>
                 </Navbar>
                 

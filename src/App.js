@@ -4,6 +4,7 @@ import Login from './components/Login/Login';
 import Principal from './components/Principal/Principal'; 
 import Existencias from './components/Existencias/Existencias';
 import Proveedores from './components/Proveedores/Proveedores';
+import Footer from './components/Footer/Footer'
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
 import Layout from './Layout';
