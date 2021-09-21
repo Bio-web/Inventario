@@ -1,0 +1,32 @@
+[    
+    {
+        "id" : "1",
+        "nombre" : "Bomba de infusion",
+        "marca" : "Hospira",
+        "referencia" : "Plum A+"
+    },
+    {
+        "id" : "2",
+        "nombre" : "Regulador vacío adulto",
+        "marca" : "FLOW METER",
+        "referencia" : "VR-C2UD-CMA"
+    },
+    {
+        "id" : "3",
+        "nombre" : "Flujometro",
+        "marca" : "AMVEX",
+        "referencia" : "15 LITROS"
+    },
+    {
+        "id" : "4",
+        "nombre" : "Tensiometro",
+        "marca" : "ALPK2",
+        "referencia" : "NT"
+    },
+    {
+        "id" : "5",
+        "nombre" : "Ventilador",
+        "marca" : "Newport",
+        "referencia" : "E360T"
+    }
+]
