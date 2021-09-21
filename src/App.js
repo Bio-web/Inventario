@@ -15,7 +15,6 @@ function App() {
   );
   return (
     <Router>
-      <Switch>
 
       <UserContext.Provider value={{ user, setUser }}>
           {!userStorage ? (
@@ -24,20 +23,22 @@ function App() {
           ) : 
           (
             <>
-              <Layout path = "/inicio">
+            <Switch>
+              <Layout exact path = "/inicio">
                 <Principal></Principal>
               </Layout>
-              <Layout path = "/existencias">
+              <Layout exact path = "/existencias">
                 <Existencias></Existencias>
               </Layout>
-              <Layout path = "/proveedores">
+              <Layout exact path = "/proveedores">
                 <Proveedores></Proveedores>
               </Layout>
+              </Switch>
+
             </>
           )}
           
       </UserContext.Provider>
-    </Switch>
     </Router>
   );
 }
