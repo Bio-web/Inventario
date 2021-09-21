@@ -1,10 +1,12 @@
 .card-footer {
-    background: #121f16 !important;
+    background:#256972 !important;
     text-align: center;
-    color: gray;
+    color: #fff;
     font-size: 25px;
     border-radius:0 !important;
     bottom: 0;
     margin-top: 10px;
+
 }
+
 /* El footer no queda abajo del todo*/

@@ -15,8 +15,8 @@ async function login(credenciales) {
 function Login() {
     const { setUser } = useContext(UserContext);
 
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
 
     const history = useHistory();
 
@@ -32,7 +32,7 @@ function Login() {
         console.log(userInfo);
         setUser(userInfo);
         localStorage.setItem("user", JSON.stringify(userInfo));
-        history.push("/");
+        history.push("/inicio");
     };
 
     return (

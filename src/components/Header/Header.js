@@ -22,24 +22,22 @@ function Header() {
             <div >
                 <Navbar variant="dark">
                     <Container>
-                        <Navbar.Brand href="#home">Inicio</Navbar.Brand>
+                        <Navbar.Brand href="inicio">Inicio</Navbar.Brand>
                         <Nav className="me-auto">
-                        <Nav.Link href="#home">Existencias</Nav.Link>
-                        <Nav.Link href="#features">Proveedores</Nav.Link>
+                        <Nav.Link href="existencias">Existencias</Nav.Link>
+                        <Nav.Link href="proveedores">Proveedores</Nav.Link>
                         </Nav>
                     </Container>
                     <ul id="botones-cabecera">
-                        <li>
                         {!user.isLoggedIn ? (
-                        <Link to="/login" className="boton-login">
-                            <i className="fas fa-user"></i>
+                        <Link to="/login" >
+                            <i className="none"></i>
                         </Link>
                         ) : (
                         <button className="boton-logout" onClick={() => cerrarSesion()}>
                             <i className="fas fa-sign-out-alt"></i>
                         </button>
                         )}
-                        </li>
                     </ul>
                 </Navbar>
                 
