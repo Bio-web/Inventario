@@ -19,7 +19,7 @@ function Existencias() {
             <h1>
                 <i className="fas fa-warehouse"></i> Existencias
             </h1>
-            <div className = 'grid'>
+            <div className = 'tabla'>
             <Table striped bordered hover variant="light">
                 <thead>
                     <tr>
@@ -32,12 +32,12 @@ function Existencias() {
                 <tbody>
                     {existencias.map(existencia => { 
                         return (
-                                        <tr>
-                                        <td>{existencia.id}</td>
-                                        <td>{existencia.nombre}</td>
-                                        <td>{existencia.marca}</td>
-                                        <td>{existencia.referencia}</td>
-                                        </tr>
+                                <tr>
+                                <td><a href={'existencias/'+existencia.id}>{existencia.id}</a></td>
+                                <td><a href={'existencias/'+existencia.id}>{existencia.nombre}</a></td>
+                                <td><a href={'existencias/'+existencia.id}>{existencia.marca}</a></td>
+                                <td><a href={'existencias/'+existencia.id}>{existencia.referencia}</a></td>
+                                </tr>
                         );
                     })}
                 </tbody>

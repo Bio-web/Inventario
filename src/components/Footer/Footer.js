@@ -6,10 +6,10 @@ function Footer() {
     return (
         <Card.Footer>
             <div id="elementos">
-            <i className="fas fa-copyright"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-twitter"></i>
+                <i className="fas fa-copyright"></i>
+                <i className="fab fa-instagram"></i>
+                <i className="fab fa-facebook"></i>
+                <i className="fab fa-twitter"></i>
             </div>
         </Card.Footer>
     )

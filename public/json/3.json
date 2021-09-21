@@ -1,0 +1,8 @@
+{
+    "id" : "3",
+    "nombre" : "Flujometro",
+    "marca" : "AMVEX",
+    "referencia" : "15 LITROS",
+    "foto" : "http://localhost:3000/img/flujometro.jpg",
+    "descripcion" : "Uno de los instrumentos más importantes en el desarrollo de los procesos industriales es el flujómetro. Este equipo es el encargado de medir la velocidad y la fuerza de los líquidos y gases en movimientos."
+}
