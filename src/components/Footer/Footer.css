@@ -1,12 +1,22 @@
-.card-footer {
+.footer {
     background:#256972 !important;
     text-align: center;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     border-radius:0 !important;
     bottom: 0;
-    margin-top: 10px;
+    margin-right: 10px;
 
 }
+.fa-copyright:before {
+    margin-right: 10px;
+    font-size: 10px  !important;
+    color:#111;
+}
 
-/* El footer no queda abajo del todo*/
+.fa-instagram:before {
+    margin-right: 10px;
+}
+.fa-facebook:before {
+margin-right: 10px;
+}
