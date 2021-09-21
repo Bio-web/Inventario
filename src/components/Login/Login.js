@@ -3,6 +3,8 @@ import { UserContext } from "../../contexts/UserContext";
 import { useHistory } from "react-router-dom";
 import "./Login.css";
 
+
+
 async function login(credenciales) {
     return {
       name: "bio-web",
@@ -13,8 +15,8 @@ async function login(credenciales) {
 function Login() {
     const { setUser } = useContext(UserContext);
 
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
 
     const history = useHistory();
 
@@ -30,10 +32,11 @@ function Login() {
         console.log(userInfo);
         setUser(userInfo);
         localStorage.setItem("user", JSON.stringify(userInfo));
-        history.push("/");
+        history.push("/inicio");
     };
 
     return (
+        <body className="principal">
         <div className="d-flex justify-content-center">
         <form className="text-white" onSubmit={handleSubmit}>
             <div className="email">
@@ -65,6 +68,9 @@ function Login() {
             </button>
         </form>
         </div>
+        </body>
+       
+
     );
 }
 
