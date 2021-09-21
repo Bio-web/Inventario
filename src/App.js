@@ -18,13 +18,14 @@ function App() {
 
       <UserContext.Provider value={{ user, setUser }}>
           {!userStorage ? (
-            
+          <Layout exact path = "">
             <Login></Login>
+          </Layout>
           ) : 
           (
             <>
             <Switch>
-              <Layout exact path = "/inicio">
+              <Layout exact path = {["/inicio", "", "/"]}>
                 <Principal></Principal>
               </Layout>
               <Layout exact path = "/existencias">
