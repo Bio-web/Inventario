@@ -8,7 +8,7 @@ function Principal() {
             <Carousel.Item>
                 <img
                 className="d-block-center"
-                src="https://construyenpais.com/wp-content/uploads/2019/06/Avances-tecnol%C3%B3gicos-al-servicio-de-pacientes-card%C3%ADacos.jpg"
+                src="http://localhost:3000/img/principal1.jpg"
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -18,7 +18,7 @@ function Principal() {
             <Carousel.Item>
                 <img
                 className="d-block-center"
-                src="https://cloudfront-us-east-1.images.arcpublishing.com/semana/L7XMEGDGF5GNXHI7MTRVTHEVSE.jpg"
+                src="http://localhost:3000/img/principal2.jpg"
                 alt="Second slide"
                 />
                 
@@ -29,7 +29,7 @@ function Principal() {
             <Carousel.Item>
                 <img
                 className="d-block-center"
-                src="https://www.consalud.es/saludigital/uploads/s1/39/34/95/hospitales-digitales-el-nuevo-reto-del-futuro.jpeg"
+                src="http://localhost:3000/img/principal3.jpg"
                 alt="Third slide"
                 />  
                 <Carousel.Caption>

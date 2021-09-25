@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Login from './components/Login/Login';
-import Header from './components/Header/Header';
 import Principal from './components/Principal/Principal'; 
 import Existencias from './components/Existencias/Existencias';
 import Existencia from './components/Existencia/Existencia';
@@ -28,19 +27,15 @@ function App() {
             <>
             <Switch>
               <Layout exact path = {["/inicio", "", "/"]}>
-                <Header></Header>
                 <Principal></Principal>
               </Layout>
               <Layout exact path = "/existencias">
-                <Header></Header>
                 <Existencias></Existencias>                
               </Layout>
               <Layout path = "/existencias/:id">
-                <Header></Header>
                 <Existencia></Existencia>
               </Layout>
               <Layout exact path = "/proveedores">
-                <Header></Header>
                 <Proveedores></Proveedores>
               </Layout>
               </Switch>

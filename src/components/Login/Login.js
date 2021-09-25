@@ -28,8 +28,6 @@ function Login() {
         password,
         });
         userInfo.isLoggedIn = true;
-
-        console.log(userInfo);
         setUser(userInfo);
         localStorage.setItem("user", JSON.stringify(userInfo));
         history.push("/inicio");
