@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 function Footer() {
     return (
-
-        <Card.Footer>           
+        <body id="Body-footer">
+            <Card.Footer>           
             <div id= "texto">
                 <p>
                 <i className="fas fa-copyright"></i>
@@ -26,9 +26,10 @@ function Footer() {
             <i className="fab fa-facebook"></i>
             <i className="fab fa-twitter"></i>
             </div>
-
             
         </Card.Footer>
+        </body>
+        
     )
 }
 
