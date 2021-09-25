@@ -3,15 +3,16 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
-    border-radius:0 !important;
+    font-family: 'Koh Santepheap';
     bottom: 0;
-    margin-right: 10px;
+    height:100%;
+
 
 }
 .fa-copyright:before {
     margin-right: 10px;
     font-size: 10px  !important;
-    color:#fff;
+    color:rgb(65, 55, 55);
 }
 
 .fa-instagram:before {
@@ -40,4 +41,9 @@ p2{
 }
 .fas.fa-phone-square-alt {
     margin-right: 10px;
+}
+
+.Body-footer{
+    border-bottom-width: 10px solid #000!important;
+    bottom: 0px;
 }
