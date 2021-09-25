@@ -13,7 +13,7 @@ function Footer() {
                 </p>
                 <p1>
                 <i class="fas fa-envelope"></i>
-                    Email : bio-web@hotmail.com
+                    Email : bio-web@gmail.com
                 </p1>        
 
                 <p2>

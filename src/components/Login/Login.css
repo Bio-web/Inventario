@@ -9,13 +9,10 @@ form {
   display:block;
 }
 .principal{
-  background-image: url(https://www.elinformativoinmobiliario.com/wp-content/uploads/2021/02/800_3519295_d4c8d7724a82b3a6a13ffb55b23b1d9e54c69631.jpg);
-  width: 100%;
-  height: 100%;
-  background-repeat: repeat;
- 
-  background-position:initial;
-}
+  background-image: url("http://localhost:3000/img/fondo.jpg");
+  background-size: contain;
+
+ }
 .exampleInputPassword1 {
   box-sizing:content-box;
   display:block;

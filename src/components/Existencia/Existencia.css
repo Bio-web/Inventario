@@ -1,3 +1,11 @@
 .card {
     padding-top: 10px;    
 }
+
+.btn-primary {
+    background-color:  #256972  !important;
+    color: #97c8eb !important;
+}
+.btn-primary :hover{
+    background-color: #158290  !important;
+}

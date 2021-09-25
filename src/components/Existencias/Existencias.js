@@ -22,10 +22,11 @@ function Existencias() {
             <Table striped bordered hover variant="light">
                 <thead>
                     <tr>
-                    <th>#</th>
+                    <th>ID</th>
                     <th>Nombre</th>
                     <th>Marca</th>
                     <th>Referencia</th>
+                    <th>Cantidad</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -36,6 +37,7 @@ function Existencias() {
                                 <td><a href={'existencias/'+existencia.id}>{existencia.nombre}</a></td>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.marca}</a></td>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.referencia}</a></td>
+                                <td><a href={'existencias/'+existencia.id}>{existencia.cantidad}</a></td>
                                 </tr>
                         );
                     })}
