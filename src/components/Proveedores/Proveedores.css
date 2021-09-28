@@ -1,0 +1,33 @@
+.contenedor-proovedores {
+    flex-basis: content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    position: relative;
+}
+
+.proovedor {
+    flex-grow: 0;
+    flex-basis: content;
+}
+
+.logo-proovedor {
+    height: 100%;
+    align-self: center;
+}
+
+.proovedor-titulo {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.info-proovedor {
+    list-style: none;
+}
+
+.fa-industry {
+    color: rgb(62, 109, 130);
+}

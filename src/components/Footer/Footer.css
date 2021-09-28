@@ -43,7 +43,8 @@ p2{
     margin-right: 10px;
 }
 
-.Body-footer{
+.contenedor-footer{
     border-bottom-width: 10px solid #000!important;
     bottom: 0px;
+    flex-basis: content;
 }

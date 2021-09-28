@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "Nombre" : "FLOW METER",
+        "Telefono" : 3322114,
+        "Ciudad" : "Medellin",
+        "Direccion" : "Calle 54 # 2-32",
+        "Email" : "contacto@flowmeter.com",
+        "logo" : "http://localhost:3000/img/flow_meter.png"
+    },
+    {
+        "id": 2,
+        "Nombre" : "AT. MEDICAS",
+        "Telefono" : 3654214,
+        "Ciudad" : "Medellin",
+        "Direccion" : "Calle 14 # 21-2",
+        "Email" : "contacto@atmedicas.com",
+        "logo" : "http://localhost:3000/img/at_medicas.jpg"
+    },
+    {
+        "id": 3,
+        "Nombre" : "LINDE COLOMBIA S.A.",
+        "Telefono" : 202154,
+        "Ciudad" : "Medellin",
+        "Direccion" : "Calle 101 # 54-3",
+        "Email" : "contacto@lindesa.com",
+        "logo" : "http://localhost:3000/img/linde_colombia.png"
+    }
+]

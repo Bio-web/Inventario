@@ -1,17 +1,21 @@
 form {
     background-color: #19a8bb;
-    padding: 10%;
+    padding: 2.5%;
     border-radius: 10px;
-    Margin:5% 
+    Margin:5%;
+    height: fit-content;
+    flex-basis: auto;
 }
 .exampleInputEmail1{
   box-sizing:content-box;
   display:block;
 }
-.principal{
+.contenedor-login{
   background-image: url("http://localhost:3000/img/fondo.jpg");
   background-size: contain;
-
+  position: relative;
+  height: 100%;
+  flex: auto;
  }
 .exampleInputPassword1 {
   box-sizing:content-box;
@@ -27,4 +31,8 @@ form button {
 }
 form button:hover {
   background-color: #158290  !important;
+}
+
+.contenedor-formulario {
+  height: 100%;
 }

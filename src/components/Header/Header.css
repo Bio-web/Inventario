@@ -1,5 +1,6 @@
-#cabecera {
-    background-color: #256972 !important; 
+.contenedor-cabecera {
+    background-color: #256972 !important;
+    flex-basis: content;
 }
 
 .boton-logout i{

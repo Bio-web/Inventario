@@ -10,7 +10,7 @@ async function login(credenciales) {
       name: "bio-web",
       token: "12345",
     };
-  }
+}
 
 function Login() {
     const { setUser } = useContext(UserContext);
@@ -34,41 +34,39 @@ function Login() {
     };
 
     return (
-        <body className="principal">
-        <div className="d-flex justify-content-center">
-        <form className="text-white" onSubmit={handleSubmit}>
-            <div className="email">
-            <label htmlFor="exampleInputEmail1" className="form-label">
-                Email
-            </label>
-            <input
-                type="email"
-                id="exampleInputEmail1"
-                className="form-control"
-                aria-describedby="emailHelp"
-                onChange={(e) => setUsername(e.target.value)}
+        <div className="contenedor-login">
+            <div className="d-flex justify-content-center align-items-center contenedor-formulario">
+                <form className="text-white" onSubmit={handleSubmit}>
+                    <div className="email">
+                    <label htmlFor="exampleInputEmail1" className="form-label">
+                        Email
+                    </label>
+                    <input
+                        type="email"
+                        id="exampleInputEmail1"
+                        className="form-control"
+                        aria-describedby="emailHelp"
+                        onChange={(e) => setUsername(e.target.value)}
 
-            />
+                    />
+                    </div>
+                    <div className="contraseña">
+                    <label htmlFor="exampleInputPassword1" className="form-label">
+                        Contraseña
+                    </label>
+                    <input
+                        type="password"
+                        id="exampleInputPassword1"
+                        className="form-control"
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                    </div>
+                    <button type="submit" className="btn">
+                    Iniciar sesión
+                    </button>
+                </form>
             </div>
-            <div className="contraseña">
-            <label htmlFor="exampleInputPassword1" className="form-label">
-                Contraseña
-            </label>
-            <input
-                type="password"
-                id="exampleInputPassword1"
-                className="form-control"
-                onChange={(e) => setPassword(e.target.value)}
-            />
-            </div>
-            <button type="submit" className="btn">
-            Iniciar sesión
-            </button>
-        </form>
         </div>
-        </body>
-       
-
     );
 }
 

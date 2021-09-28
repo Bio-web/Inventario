@@ -38,7 +38,7 @@ function App() {
               <Layout exact path = "/proveedores">
                 <Proveedores></Proveedores>
               </Layout>
-              </Switch>
+            </Switch>
 
             </>
           )}

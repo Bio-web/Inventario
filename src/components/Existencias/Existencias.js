@@ -9,12 +9,11 @@ function Existencias() {
     useEffect( () => {
         fetch("http://localhost:3000/json/existencias.json")
         .then( (response) => response.json())
-        .then( (data) => setExistencias(data))
-
+        .then( (data) => setExistencias(data))        
     }, [])
 
     return(
-        <section id = 'existencias'>
+        <div className = 'contenedor-existencias'>
             <h1>
                 <i className="fas fa-warehouse"></i> Existencias
             </h1>
@@ -44,7 +43,7 @@ function Existencias() {
                 </tbody>
                 </Table>
             </div>
-        </section>
+        </div>
         
     )
 }

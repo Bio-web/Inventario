@@ -18,7 +18,7 @@ function Header() {
     };
     return (
         <>
-        <header id="cabecera"> 
+        <header className="contenedor-cabecera"> 
             <div >
                 <Navbar variant="dark">
                     <Container>
