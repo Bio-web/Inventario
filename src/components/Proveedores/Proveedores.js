@@ -21,15 +21,15 @@ function Proveedores() {
                 return(
                     <Container className = "proovedor">
                         <Row>
-                            <Col className = "logo-proovedor">
+                            <Col className = "logo-proovedor" xs = {6}>
                                 <img
                                     src = {proovedor.logo}
                                     alt = {proovedor.Nombre}
                                 />
                             </Col>
-                            <Col>
-                                <h2 className = "nombre-proovedor">{proovedor.Nombre}</h2>
-                                <ul className = "info-proovedor">
+                            <Col className = "info-proovedor" xs = {6}>
+                                <h2>{proovedor.Nombre}</h2>
+                                <ul>
                                     <li>Telefono: {proovedor.Telefono}</li>
                                     <li>Ciudad: {proovedor.Ciudad}</li>
                                     <li>Dirección: {proovedor.Direccion}</li>
