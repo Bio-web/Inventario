@@ -1,0 +1,8 @@
+{
+    "id" : "1",
+    "nombre" : "Bomba de infusion",
+    "marca" : "Hospira",
+    "referencia" : "Plum A+",
+    "foto" : "http://localhost:3000/img/bombainfusion.jpg",
+    "descripcion" : "Una bomba de infusión inyecta fluidos, medicación o nutrientes en el sistema circulatorio del paciente. Generalmente su uso es intravenoso, sin embargo infusiones subcutánea, arteriales y epidurales se utilizan ocasionalmente."
+}

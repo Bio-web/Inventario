@@ -1,0 +1,12 @@
+.contenedor-pagina {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-principal {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

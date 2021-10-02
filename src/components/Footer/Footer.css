@@ -3,22 +3,48 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
-    border-radius:0 !important;
+    font-family: 'Koh Santepheap';
     bottom: 0;
-    margin-right: 10px;
+    height:100%;
+
 
 }
 .fa-copyright:before {
     margin-right: 10px;
     font-size: 10px  !important;
-    color:#111;
+    color:rgb(65, 55, 55);
 }
 
 .fa-instagram:before {
     margin-right: 10px;
 }
 .fa-facebook:before {
-margin-right: 10px;
+    margin-right: 10px;
 }
 
-/* El footer no queda abajo del todo*/
+p{
+    font-size: 12px !important;
+    margin-bottom: 0 !important;
+}
+p1{
+    font-size: 15px !important;
+    margin-top: 0;    
+}
+p2{
+    font-size: 15px !important;
+    margin-left: 30px !important;
+    margin-top: 0!important;
+}
+
+.fas.fa-envelope {
+    margin-right: 10px;
+}
+.fas.fa-phone-square-alt {
+    margin-right: 10px;
+}
+
+.contenedor-footer{
+    border-bottom-width: 10px solid #000!important;
+    bottom: 0px;
+    flex-basis: content;
+}

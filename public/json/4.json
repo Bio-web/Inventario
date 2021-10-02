@@ -1,0 +1,8 @@
+{
+    "id" : "4",
+    "nombre" : "Tensiometro",
+    "marca" : "ALPK2",
+    "referencia" : "NT",
+    "foto" : "http://localhost:3000/img/tensiometro.jpg",
+    "descripcion" : "Un tensiómetro es un aparato medico que sirve para medir la presión sanguínea y la tensión arterial. Se puede medir tanto en el brazo como en la muñeca."
+}

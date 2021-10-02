@@ -1,0 +1,8 @@
+{
+    "id" : "2",
+    "nombre" : "Regulador vacío adulto",
+    "marca" : "FLOW METER",
+    "referencia" : "VR-C2UD-CMA",
+    "foto" : "http://localhost:3000/img/reguladorvacio.jpg",
+    "descripcion" : "El regulador de vacío continuo es un producto multi-propósito, se ofrece un sistema de 2-modos (Reg/Off) o 3 modos (Reg/Off/Full). Con sus características confiables, convenientemente diseñados para mejorar los procedimientos de succión y realzar la práctica clínica en todas partes del hospital."
+}

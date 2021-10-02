@@ -1,5 +1,6 @@
-#cabecera {
-    background-color: #256972 !important; 
+.contenedor-cabecera {
+    background-color: #256972 !important;
+    flex-basis: content;
 }
 
 .boton-logout i{
@@ -18,3 +19,16 @@
  .boton-logout :hover {
      color:gray;
  }
+
+ .navbar {
+     padding-top: 0 !important;
+     padding-bottom: 0 !important;
+ }
+
+ .navbar-dark .navbar-brand {
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+}

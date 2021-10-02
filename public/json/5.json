@@ -1,0 +1,8 @@
+{
+    "id" : "5",
+    "nombre" : "Ventilador",
+    "marca" : "Newport",
+    "referencia" : "E360T",
+    "foto" : "http://localhost:3000/img/ventilador.jpg",
+    "descripcion" : "Un respirador o ventilador es una máquina con una turbina interna que genera un flujo de aire a presión introducido en la vía aérea mediante un tubo y una mascarilla."
+}

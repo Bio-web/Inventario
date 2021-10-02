@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Login from './components/Login/Login';
 import Principal from './components/Principal/Principal'; 
 import Existencias from './components/Existencias/Existencias';
+import Existencia from './components/Existencia/Existencia';
 import Proveedores from './components/Proveedores/Proveedores';
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
@@ -27,18 +28,18 @@ function App() {
             <>
             <Switch>
               <Layout exact path = {["/inicio", "", "/"]}>
-                <Header></Header>
                 <Principal></Principal>
               </Layout>
               <Layout exact path = "/existencias">
-                  <Header></Header>
-                <Existencias></Existencias>
+                <Existencias></Existencias>                
+              </Layout>
+              <Layout path = "/existencias/:id">
+                <Existencia></Existencia>
               </Layout>
               <Layout exact path = "/proveedores">
-                <Header></Header>
                 <Proveedores></Proveedores>
               </Layout>
-              </Switch>
+            </Switch>
 
             </>
           )}

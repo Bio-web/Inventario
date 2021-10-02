@@ -3,38 +3,41 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Principal() {
     return (
-        <div className="text-center">
-        <Carousel>
-            <Carousel.Item>
-                <img
-                className="d-block-center"
-                src="https://construyenpais.com/wp-content/uploads/2019/06/Avances-tecnol%C3%B3gicos-al-servicio-de-pacientes-card%C3%ADacos.jpg"
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                <h3> Tecnología médica</h3>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block-center"
-                src="https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Imagenes/Imagenes_subsitios_especiales/proyecto_salvar_vidas/ventilador-herons-noticias-unisabana.jpg"
-                alt="Second slide"
-                />
-                
-                <Carousel.Caption id="img2">
-                <h2>Sistemas actualizados</h2>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block-center"
-                src="https://www.consalud.es/saludigital/uploads/s1/39/34/95/hospitales-digitales-el-nuevo-reto-del-futuro.jpeg"
-                alt="Third slide"
-                />
-            </Carousel.Item>
+        <div className = "contenedor-carousel">
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className = "d-block-center"
+                    src = "http://localhost:3000/img/principal1.jpg"
+                    alt = "First slide"
+                    />
+                    <Carousel.Caption>
+                        <h1 className = "carousel-caption-1">Tecnología médica</h1>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className = "d-block-center"
+                    src = "http://localhost:3000/img/principal2.jpg"
+                    alt = "Second slide"
+                    />
+                    <Carousel.Caption>
+                        <h1 className = "carousel-caption-2">Sistemas actualizados</h1>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className = "d-block-center"
+                    src = "http://localhost:3000/img/principal3.jpg"
+                    alt = "Third slide"
+                    /> 
+                    <Carousel.Caption>
+                        <h1 className = "carousel-caption-3"> Los mejores proveedores</h1>
+                    </Carousel.Caption>
+                    
+                </Carousel.Item>
             </Carousel>
-            </div>
+        </div>
     )
 
 }
