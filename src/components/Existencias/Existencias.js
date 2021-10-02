@@ -31,13 +31,13 @@ function Existencias() {
                 <tbody>
                     {existencias.map(existencia => { 
                         return (
-                                <tr>
+                            <tr>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.id}</a></td>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.nombre}</a></td>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.marca}</a></td>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.referencia}</a></td>
                                 <td><a href={'existencias/'+existencia.id}>{existencia.cantidad}</a></td>
-                                </tr>
+                            </tr>
                         );
                     })}
                 </tbody>

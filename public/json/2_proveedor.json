@@ -1,0 +1,9 @@
+{
+    "id": 2,
+    "Nombre" : "AT. MEDICAS",
+    "Telefono" : 3654214,
+    "Ciudad" : "Medellin",
+    "Direccion" : "Calle 14 # 21-2",
+    "Email" : "contacto@atmedicas.com",
+    "logo" : "http://localhost:3000/img/at_medicas.jpg"
+}

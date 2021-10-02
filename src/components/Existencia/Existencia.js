@@ -20,16 +20,16 @@ function Existencias() {
 
     return(
         <div className="d-flex justify-content-around">
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={existencia.foto}/>
-            <Card.Body>
-            <Card.Title>{existencia.nombre}</Card.Title>
-            <Card.Text>
-                {existencia.descripcion}
-            </Card.Text>
-            <Button href="/../existencias">Atras</Button>
-            </Card.Body>
-        </Card>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={existencia.foto}/>
+                <Card.Body>
+                    <Card.Title>{existencia.nombre}</Card.Title>
+                    <Card.Text>
+                        {existencia.descripcion}
+                    </Card.Text>
+                    <Button href="/../existencias">Atras</Button>
+                </Card.Body>
+            </Card>
         </div>
      )
 }
