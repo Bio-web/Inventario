@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "Nombre" : "FLOW METER",
+    "Telefono" : 3322114,
+    "Ciudad" : "Medellin",
+    "Direccion" : "Calle 54 # 2-32",
+    "Email" : "contacto@flowmeter.com",
+    "logo" : "http://localhost:3000/img/flow_meter.png"
+}

@@ -1,0 +1,19 @@
+.contenedor-proveedor {
+    display: flex;
+    place-content: center;
+}
+
+.info-proveedor{
+    display: block;
+    list-style: none;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.btn-primary {
+    background-color:  #256972  !important;
+    color: #97c8eb !important;
+}
+.btn-primary :hover{
+    background-color: #158290  !important;
+}

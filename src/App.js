@@ -5,6 +5,7 @@ import Principal from './components/Principal/Principal';
 import Existencias from './components/Existencias/Existencias';
 import Existencia from './components/Existencia/Existencia';
 import Proveedores from './components/Proveedores/Proveedores';
+import Proveedor from './components/Proveedor/Proveedor'
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
 import Layout from './Layout';
@@ -38,6 +39,9 @@ function App() {
               </Layout>
               <Layout exact path = "/proveedores">
                 <Proveedores></Proveedores>
+              </Layout>
+              <Layout exact path = "/proveedor/:id">
+                <Proveedor></Proveedor>
               </Layout>
             </Switch>
 

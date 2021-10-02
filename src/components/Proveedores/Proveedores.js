@@ -1,40 +1,34 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Proveedores.css";
 
 function Proveedores() {
 
-    const[proovedores, setProovedores] = useState([]);
+    const[proveedores, setproveedores] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/json/proovedores.json")
+        fetch("http://localhost:3000/json/proveedores.json")
         .then( (response) => response.json())
-        .then( (data) => setProovedores(data))
+        .then( (data) => setproveedores(data))
     },[])
 
     return( 
-        <div className = "contenedor-proovedores">
-            <h1 className = "proovedor-titulo">
-                <i class="fas fa-industry"></i> Proovedores
+        <div className = "contenedor-proveedores">
+            <h1 className = "proveedor-titulo">
+                <i class="fas fa-industry"></i> Proveedores
             </h1>
-            {proovedores.map((proovedor) => {
+            {proveedores.map((proveedor) => {
                 return(
-                    <Container className = "proovedor">
+                    <Container className = "proveedor">
                         <Row>
-                            <Col className = "logo-proovedor" xs = {6}>
+                            <Col className = "logo-proveedor" xs = {12}>
+                                <Link to = {'proveedor/'+proveedor.id}>
                                 <img
-                                    src = {proovedor.logo}
-                                    alt = {proovedor.Nombre}
+                                    src = {proveedor.logo}
+                                    alt = {proveedor.Nombre}
                                 />
-                            </Col>
-                            <Col className = "info-proovedor" xs = {6}>
-                                <h2>{proovedor.Nombre}</h2>
-                                <ul>
-                                    <li>Telefono: {proovedor.Telefono}</li>
-                                    <li>Ciudad: {proovedor.Ciudad}</li>
-                                    <li>Dirección: {proovedor.Direccion}</li>
-                                    <li>Email: {proovedor.Email}</li>
-                                </ul>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

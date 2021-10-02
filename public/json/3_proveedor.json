@@ -1,0 +1,9 @@
+{
+    "id": 3,
+    "Nombre" : "LINDE COLOMBIA S.A.",
+    "Telefono" : 202154,
+    "Ciudad" : "Medellin",
+    "Direccion" : "Calle 101 # 54-3",
+    "Email" : "contacto@lindesa.com",
+    "logo" : "http://localhost:3000/img/linde_colombia.png"
+}
